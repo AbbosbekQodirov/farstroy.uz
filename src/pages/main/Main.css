@@ -1,0 +1,221 @@
+.hero {
+  background-color: #f8fafc;
+}
+.hero_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  gap: 50px;
+  /* background-color: rgb(215, 219, 231); */
+  background-color: #f8fafc;
+  background-size: 100%;
+}
+.hero_info > div {
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero_info > div:nth-child(1) {
+  width: 100%;
+  padding: 0px 30px;
+}
+.hero_info > div:nth-child(1) h1 {
+  color: #333;
+  width: 100%;
+  /* font-weight: 900; */
+}
+
+.image-gallery {
+  width: 100% !important;
+}
+
+.hero_img img {
+  width: 100vw;
+}
+
+.btn {
+  /* border: 2px solid #333; */
+  padding: 1.007581227436823vh 2.125vw;
+  margin-top: 3.6101083032490973vh;
+  background-color: gold;
+  cursor: pointer;
+  border-radius: 0.9025270758122743vh;
+}
+.btn a span {
+  color: #333;
+  font-weight: bold;
+  font-size: 2.6101083032490973vh;
+}
+.slider {
+  width: 100vw;
+}
+
+.slider_item {
+  width: 100vw;
+  /* height: 200px; */
+  /* background-color: red; */
+}
+.hauses_title {
+  text-align: center;
+  color: #333;
+  margin: 5.415162454873646vh 0vw !important;
+}
+.hauses_title span {
+  background-color: gold;
+  color: #333;
+  padding: 1.8050541516245486vh 3.125vw;
+  margin: 5.415162454873646vh 0;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+}
+.hauses {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.8050541516245486vh 3.125vw;
+  justify-content: space-around;
+  gap: 4.332129963898917vh;
+  overflow-x: hidden;
+}
+.hauses li {
+  /* border-radius: 10px 10px 0 0; */
+  width: 350px;
+  cursor: pointer;
+  padding-bottom: 3.125vw;
+  background-color: #333;
+  overflow: hidden;
+  /* border: 2px solid #333;   */
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+.hauses li h2 {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+.hauses li p {
+  color: #fff;
+  letter-spacing: 0.6px;
+  padding: 5px 10px;
+}
+.li_img {
+  width: 100%;
+  /* height: 100%; */
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+  /* border-radius: 10px; */
+}
+/* .li_img img {
+  border-radius: 10px 10px 0 0;
+} */
+
+.btn2 {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-7 {
+  font-size: 20px;
+  background-color: gold;
+  color: #333;
+}
+
+.hauses .card:hover .item {
+  transform: translateY(-100px);
+}
+.hauses li img {
+  width: 100%;
+  object-fit: contain;
+  transition: all 0.4s ease;
+}
+.our_houses {
+  background-color: #f8fafc;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+@media (max-width: 568px) {
+  .hauses{
+    justify-content: center !important;
+  }
+  .hauses li {
+    width: 100%;
+  }
+  .hero_info {
+    padding-top: 30px;
+    padding-bottom: 0vh !important;
+  }
+}
+@media (max-width: 467px) {
+  .hauses_title{
+    font-size: 20px !important;
+  }
+  .hauses_title span{
+    margin: 20px 0px; 
+    padding: 1.0050541516245486vh 3.125vw;
+  }
+  .hero_info {
+    padding-top: 30px;
+    padding-bottom: 0vh !important;
+  }
+  .hero_info div{
+    width: 100%;
+  }
+  .hero_info h1 {
+    font-size: 20px;
+    padding: 20px;
+  }
+  .slider_item {
+    width: 70%;
+  }
+
+  .hero {
+    width: 100%;
+    padding: 0;
+  }
+  .image-gallery {
+    width: 100%;
+  }
+}
+
+.container {
+  width: 85vw;
+  margin: 0 auto;
+}
+.P-txt {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.color {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 2px;
+}
+.txt {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.place {
+  background-color: #676666;
+  padding: 10px;
+}
+.sotuv {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
