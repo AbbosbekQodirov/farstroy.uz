@@ -133,7 +133,7 @@ function Header() {
           <ul className="social">
             <li>
               <a style={{ fontWeight: "bold" }} href="tel:+998907775577">
-                +998-90-777-55-78
+                +998-90-777-55-77
               </a>
             </li>
             <li>
